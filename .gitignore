@@ -1,0 +1,28 @@
+# Configuração real (contém caminhos e nomes do seu ambiente)
+config.py
+.env
+
+# Dados e planilhas: nunca versionar
+*.xlsx
+*.xlsm
+*.xls
+*.csv
+
+# Backups, pasta de processados e temporários
+*_backup_*
+Processados/
+*.tmp.xlsx
+~$*
+
+# Imagens (podem conter dados reais). Imagens de documentação ficam em docs/
+*.png
+*.jpg
+*.jpeg
+!docs/*.png
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
